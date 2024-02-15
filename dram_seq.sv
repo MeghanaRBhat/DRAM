@@ -68,6 +68,7 @@ pkt.print();
 
 finish_item(pkt);
 
+pkt=dram_seq_item::type_id::create("pkt");
 start_item(pkt);
 
 pkt.wr=1;
