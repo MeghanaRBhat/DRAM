@@ -7,7 +7,7 @@ import uvm_pkg::*;
 `include "interface.sv"
 
 
-//`include "DUT.sv"
+`include "DUT.sv"
 
 `include "dram_seq_item.sv"
 

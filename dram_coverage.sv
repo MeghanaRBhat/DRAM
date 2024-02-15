@@ -1,10 +1,9 @@
-class dram_coverage #(type T=dram_seq_item) extends uvm_subscriber #(T);
+class dram_coverage #(type pack=dram_seq_item) extends uvm_subscriber #(pack);
   `uvm_component_utils(dram_coverage)
-//dram_seq_item pkt;
-T pkt;
+pack  pkt;
 
-covergroup CovPort;	//@(posedge intf.clk);
- address : coverpoint  pkt.add{
+covergroup cov;	//@(posedge intf.clk);
+ address : coverpoint  pkt.add {
    bins low    = {[0:31]};
    bins high   = {[32:63]};
   } 
@@ -22,21 +21,19 @@ covergroup CovPort;	//@(posedge intf.clk);
   }
 endgroup
 
-function new (string name = "dram_cov", uvm_component parent);
+function new (string name = "dram_coverage", uvm_component parent);
       super.new (name, parent);
-	  CovPort = new;
+	  cov = new;
 endfunction
 
 function void build_phase(uvm_phase phase);
     super.build_phase(phase);
-	//pkt=dram_seq_item::type_id::create("pkt");
-    //CovPort = new("CovPort",this);
 endfunction
 	  
-  virtual function void write (T t);
+  virtual function void write (pack t);
 	`uvm_info("SEQ","SEQUENCE TRANSACTIONS",UVM_NONE);
 	pkt = t;
-	CovPort.sample();
+	cov.sample();
 endfunction
 
 endclass

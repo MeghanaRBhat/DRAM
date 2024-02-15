@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/meghanabhat/Desktop/DRAM
+T_opt
+!s110 1707985084
+V]l7R<B70zHRY>;eQFjn[K2
+04 8 4 work dram_top fast 0
+=1-a4badb503ddd-65cdc8bb-9cd87-11df
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+vdram_top
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 DXx6 mtiUvm 7 uvm_pkg 0 22 oMKUklN?>LE6@MJe7=2><1
+Z4 DXx4 work 16 dram_top_sv_unit 0 22 bm2hW^LglTSl6_aL1PnEV0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 P4Sbnfne:8H88=5eK`7G>2
+IT3bFjYk5Ga0[9`^]041dG3
+Z6 !s105 dram_top_sv_unit
+S1
+R0
+w1707979285
+Z7 8dram_top.sv
+Z8 Fdram_top.sv
+L0 36
+Z9 OE;L;10.6c;65
+Z10 !s108 1707985074.000000
+Z11 !s107 dram_test.sv|dram_env.sv|dram_sb.sv|dram_agent2.sv|dram_agent1.sv|dram_mon2.sv|dram_mon1.sv|dram_coverage.sv|dram_drv.sv|dram_seqr.sv|dram_seq.sv|dram_seq_item.sv|DUT.sv|interface.sv|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|dram_top.sv|
+Z12 !s90 -sv|dram_top.sv|
+!i113 0
+Z13 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xdram_top_sv_unit
+!s115 intif
+R2
+R3
+Vbm2hW^LglTSl6_aL1PnEV0
+r1
+!s85 0
+31
+!i10b 1
+!s100 S?QRabMWZGMA[7<JPA>Ez3
+Ibm2hW^LglTSl6_aL1PnEV0
+!i103 1
+S1
+R0
+w1707985066
+R7
+R8
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Z14 Finterface.sv
+Z15 FDUT.sv
+Fdram_seq_item.sv
+Fdram_seq.sv
+Fdram_seqr.sv
+Fdram_drv.sv
+Fdram_coverage.sv
+Fdram_mon1.sv
+Fdram_mon2.sv
+Fdram_agent1.sv
+Fdram_agent2.sv
+Fdram_sb.sv
+Fdram_env.sv
+Fdram_test.sv
+L0 2
+R9
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vDUT
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 fCh1LO9mU<doDLBz>3cc32
+I1DEzKEjMO@m3[T=PFi8:72
+R6
+S1
+R0
+Z16 w1707979178
+8DUT.sv
+R15
+L0 2
+R9
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@d@u@t
+Yintif
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+!i10b 1
+!s100 bI=IXYd<H1][i9M3Hh4l[0
+I^0h?9D84NPFG9h]Zn4aan2
+R6
+S1
+R0
+R16
+8interface.sv
+R14
+L0 1
+R9
+R10
+R11
+R12
+!i113 0
+R13
+R1
