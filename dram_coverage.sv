@@ -4,15 +4,21 @@ class dram_coverage #(type T=dram_seq_item) extends uvm_subscriber #(T);
 T pkt;
 
 covergroup CovPort;	//@(posedge intf.clk);
-  address : coverpoint pkt.add {
-    bins low    = {[0:20]};
-    bins med    = {[21:42]};
-    bins high   = {[43:63]};
-  }
+ address : coverpoint  pkt.add{
+   bins low    = {[0:31]};
+   bins high   = {[32:63]};
+  } 
   data : coverpoint  pkt.data_in {
-    bins low    = {[0:50]};
-    bins med    = {[51:150]};
-    bins high   = {[151:255]};
+    bins low    = {[0:127]};
+    bins high   = {[128:255]};
+}
+  wr : coverpoint pkt.wr {
+    bins low = {0};
+    bins high = {1};
+  }
+  en : coverpoint pkt.en {
+    bins low = {0};
+    bins high ={1};
   }
 endgroup
 
@@ -27,7 +33,7 @@ function void build_phase(uvm_phase phase);
     //CovPort = new("CovPort",this);
 endfunction
 	  
-virtual function void write (T t);
+  virtual function void write (T t);
 	`uvm_info("SEQ","SEQUENCE TRANSACTIONS",UVM_NONE);
 	pkt = t;
 	CovPort.sample();
