@@ -1,5 +1,6 @@
 
 import uvm_pkg::*;
+//`include "uvm_pkg"
 
 `include "uvm_macros.svh"
 
@@ -14,9 +15,9 @@ import uvm_pkg::*;
 
 `include "dram_seqr.sv"
 
+`include "dram_drv.sv"
 
-
-//`include "COV.sv"
+`include "dram_coverage.sv"
 
 `include "dram_mon1.sv"
 
