@@ -8,7 +8,7 @@ dram_agent2 agent2;
 
 dram_sb sb;
 
-dram_cov cov;
+dram_coverage cov;
 
 function new(string name="dram_env",uvm_component parent);
 
@@ -26,7 +26,7 @@ agent2=dram_agent2::type_id::create("agent2",this);
 
 sb=dram_sb::type_id::create("sb",this);
 
-cov = dram_cov#(dram_seq_item)::type_id::create("cov",this);
+  cov = dram_coverage#(dram_seq_item)::type_id::create("cov",this);
 
 endfunction
 
